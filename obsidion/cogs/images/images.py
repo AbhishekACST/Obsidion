@@ -17,7 +17,7 @@ class images(commands.Cog):
     async def achievement(
         self, ctx: commands.Context, block_name: str, title: str, text: str
     ):
-        """Create your very own custom Minecraft achievements"""
+        """Create your very own custom Minecraft achievements."""
         await ctx.channel.trigger_typing()
         embed = discord.Embed(color=0x00FF00)
         embed.set_image(
@@ -34,7 +34,7 @@ class images(commands.Cog):
         line3: str = "%20",
         line4: str = "%20",
     ):
-        """Create your very own custom Minecraft achievements"""
+        """Create your very own custom Minecraft Signs."""
         await ctx.channel.trigger_typing()
         embed = discord.Embed(color=0x00FF00)
         embed.set_image(
